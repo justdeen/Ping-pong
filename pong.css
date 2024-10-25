@@ -5,6 +5,7 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: 'Nunito'
 }
 
 /* Styling of the main container */
@@ -83,8 +84,7 @@ select{
 }
 
 select option{
-    text-align: left;
-    margin-left: 10px;
+    text-align: center;
 }
 
 /* Styling of container for nesting the buttons  */
