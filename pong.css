@@ -1,0 +1,163 @@
+/* Centering all the contentes in the middle */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling of the main container */
+section{
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+/* Container for header image */
+#img{
+    width: 100%;
+    height: 250px;
+}
+
+/* Resizing of header image */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styling of container for the game title   */
+#gametitle{
+    width: 100%;
+    border-bottom: 2px solid rgb(189, 189, 189);
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styling of game title */
+#title{
+    padding-left: 5px;
+}
+
+/* Styling of contents inside the container for the gameplay */
+#gameplay{
+    font-size: 20px;
+}
+
+/* Container for keeping track of the players' scores */
+#counter{
+    padding: 20px 0px;
+    padding-left: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Span elements for increamenting the players' scores */
+#left, #right{
+    font-weight: 500;
+    font-size: 45px;
+    padding-right: 10px;
+}
+
+#right{
+    padding-left: 10px;
+}
+
+/* Styling of instructions for the game */
+#instruction, #targetcont{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+/* Styling of html select element */
+select{
+    outline: none;
+    border-radius: 40px;
+    padding: 2.5px 6px;
+    text-align: center;
+}
+
+select option{
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* Styling of container for nesting the buttons  */
+#buttons{
+    text-align: center;
+    width: 100%;
+}
+
+/* Styling of buttons */
+button{
+    width: 33.33333%;
+    height: 55px;
+    font-size: 15px;
+}
+
+#player1{
+    background-color: rgb(1, 179, 1);
+    border: none;
+    color: white;
+}
+
+#player1:active{
+    background-color: rgb(0, 146, 0);
+}
+
+#player2{
+    background-color: rgb(198, 212, 0);
+    border: none;
+    color: white;
+}
+
+#player2:active{
+    background-color: rgb(175, 187, 1);
+}
+
+#reset{
+    background-color: rgb(255, 72, 0);
+    border: none;
+    color: white;
+}
+
+#reset:active{
+    background-color: rgb(207, 59, 0);
+}
+
+/* Div element for displaying the winner */
+#winner{
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+/* Media query for tablets */
+@media (max-width: 500px){
+    button{
+        width: 33.33333%;
+        font-size: 12px;
+        height: 44px;
+    }
+
+    #instruction, #targetcont{
+        font-size: 15px;
+    }
+}
+
+/* Media query for Phones  */
+@media (max-width: 354px){
+    button{
+        font-size: 10px;
+        height: 39px;
+        width: 33.33333%;
+    }
+
+    #instruction, #targetcont{
+        font-size: 13px;
+    }
+}
