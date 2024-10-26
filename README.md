@@ -1,3 +1,6 @@
+![Notes_241026_121826_09c](https://github.com/user-attachments/assets/fb0d88e9-dba0-4a95-9a07-facf420a3498)
+
+
 ## 💫Overview 
 A lightweight JavaScript-powered ping pong score tracker with automatic winner detection and reset functionality. This game allows two players to track their scores and declare a winner based on a predetermined target score.
 <br>
