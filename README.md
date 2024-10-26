@@ -42,5 +42,5 @@ Contributions are welcome! Fork the repository, make changes, and submit a pull 
 <br>
 
 ## 🥂Acknowledgments
-1. Font used: Nunito
+1. Font used: Nunito (Google Fonts)
 2. Inspired by classic Ping Pong games
