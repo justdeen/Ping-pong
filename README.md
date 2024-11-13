@@ -1,4 +1,4 @@
-![Notes_241026_121826_09c](https://github.com/user-attachments/assets/fb0d88e9-dba0-4a95-9a07-facf420a3498)
+![Notes_241113_102514_efc](https://github.com/user-attachments/assets/c6f0cd44-5c0d-4c9f-8c1e-a9a50ee5c349)
 
 
 ## 💫Overview 
