@@ -112,7 +112,7 @@ button{
 
 #player2{
     background-color: rgb(198, 212, 0);
-    background-color: #D41E3C;
+    background-color: #2B45F0;
     border: none;
     color: white;
 }
@@ -122,7 +122,7 @@ button{
 }
 
 #reset{
-    background-color: rgb(255, 72, 0);
+    background-color: #D41E3C;
     border: none;
     color: white;
 }
